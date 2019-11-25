@@ -1,0 +1,58 @@
+#main-doc{
+  text-align: left;
+  position: absolute;
+  margin-left:13%;
+  margin-bottom:5%;
+  margin-right: 2%;
+  font-family: sans-serif;
+  text-size: 13px;
+}
+#header {
+  text-size: 48;
+  margin: -1px;
+  text-color: red;
+}
+
+code{
+  text-align: center;
+/*     padding:2px; */
+  word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    min-width:233px;
+   padding-bottom: 5px;
+  background-color:#D3D3D3;
+   
+  }
+#navbar{
+  font-family: 'Karla', sans-serif;
+  text-size: 37;
+  position:fixed;
+  top:-11px;
+  left:-2%;
+  width:268px;
+  height:110%;
+  border-right:solid;
+  border-color:black;
+  
+}
+#navbar ul{
+  height:88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+  
+}
+#navbar li{
+  display: block;
+  padding:15%;
+  color:black;
+  border:1.5px solid;
+}
+h3{
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
